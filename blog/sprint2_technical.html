@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Charlie's EDA Blog</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link href="styles/reset.css" rel="stylesheet" type="text/css" /> -->
+
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  </head>
+  <body>
+      
+        <div class="container">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                      
+                      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                      </a>
+                    </div>
+                  
+                    <div id="navbarBasicExample" class="navbar-menu">
+                      <div class="navbar-start">
+                        <a class="navbar-item" href="../index.html">
+                          Home
+                        </a>
+                  
+                        <a class="navbar-item">
+                          Contact
+                        </a>
+                  
+                        <div class="navbar-item has-dropdown is-hoverable">
+                          <a class="navbar-link">
+                            Blogs
+                          </a>
+                  
+                          <div class="navbar-dropdown">
+                            <a class="navbar-item" href="sprint2_technical.html">
+                              CSS Layout
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                              Report an issue
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="navbar-end">
+                        <div class="navbar-item">
+                          <div class="buttons">
+                            <a class="button is-primary">
+                              <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light">
+                              Log in
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+  
+  
+        <section class="hero is-dark is-bold">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Charlie's Blog
+                </h1>
+                <h2 class="subtitle">
+                  My learning from the EDA foundations.
+                </h2>
+              </div>
+            </div>
+          </section>
+
+        <div class="section container">
+            <div class="columns">
+                <div class="column is-half">
+                        <h4 class="title is-4">The Difference Between Inline and Inline-Block</h4>
+                        <h6 class="subtitle is-6">Explaining the difference between inline and inline-block in CSS</h6>
+
+                        <hr>
+
+                        <p>When it comes to the foundational building blocks of web design, HTML and CSS, once you've discovered how to add basic elements such as <code>div's</code> and text, the next step is to figure out how to display them.
+                            <br>
+                            <br>
+                            The core of layout in CSS comes down to a handful of properties:</p>
+                            <br>
+                            <ul style="list-style-type:disc; margin-left:32px;">
+                            <li><code>display: inline;</code></li>
+                            <li><code>display: block;</code></li>
+                            <li><code>display: inline-block;</code></li>
+                            <li><code>display: none;</code></li>
+                            </ul>
+                            <br>
+                            <h4 class="is-4">display: inline;</h4>
+                            <br>
+                            <p>The <code>display: inline;</code> property tells an element that should sit on the same line as other elements. This also means that inline elements cannnot have a width and height set, and do not respect top and bottom margin or padding.</p>
+                            <br>
+                            <h4 class="is-4">display: block;</h4>
+                            <br>
+                            <p>The <code>display: block;</code> property tells an element that it's a block, and as such, it should force a line break on the line that it is on, so that other elements won't sit next to it, but rather fall to the line below. This can be observed in the diagram to the right.</p>
+                            <br>
+                            <h4 class="is-4">display: inline-block;</h4>
+                            <br>
+                            <p>The <code>display: inline-block;</code> property tells an element to behave like it has <code>display: inline;</code> property, but that it should also allow it to have a specific width and height, like a <code>display: block;</code> element.
+                        
+
+                    <hr>
+                    <h6 class='subtitle is-6 has-text-grey-light'>by Charlie Coppinger on 17th September 2019</h6>
+
+                </div>
+
+                <div class="column is-half">
+                    <figure class="image ">
+                        <img class="is-fixed" src='display-diagram.png' style='height:428px; width:428px;'>
+                    </figure>
+                </div>
+            </div>
+    </div>
+
+  </body>
+</html>

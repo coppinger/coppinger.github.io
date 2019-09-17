@@ -38,23 +38,6 @@ ul
     padding-inline-start: 0;
 }
 
-#container
-{
-    padding:80px;
-    margin:20px;
-    box-shadow:inset 0px 0px 0px 20px black;
-}
-
-#content
-{
-
-}
-
-.main-title
-{
-    font-size:80px;
-}
-
 .navbar
 {
     width: 100%;
@@ -67,7 +50,6 @@ ul
 {
     list-style: none;
     display:flex;
-    margin-bottom:20px;
 }
 
 .nav-item
@@ -85,20 +67,25 @@ ul
     font-family: 'Libre Baskerville', serif;
 }
 
-.row
-{
-    width:100%;
-    display:flex;
-    justify-content: space-between;
-}
-
-.col-3
-{
-    width:30%;
-}
-
 .nav-div
 {
     margin-bottom:30px;
     border:1px solid black;
+}
+
+.has-image-centered
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.has-image-ceneterd-fixed
+{
+    left:0;
+    right:0;
+}
+
+.is-fixed
+{
+    position:fixed;
 }

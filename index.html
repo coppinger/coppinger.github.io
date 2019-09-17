@@ -1,46 +1,116 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <title>Charlie's EDA Blog</title>
+
     <meta charset="UTF-8">
-    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link href="styles/reset.css" rel="stylesheet" type="text/css" /> -->
+
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
   </head>
-  
+
   <body>
-    <div id="container">
 
-      <h1 class="main-title">Charlie's Blog</h1>
+<div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
+        
+              <a class="navbar-item">
+                Contact
+              </a>
+        
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Blogs
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item" href="blog/sprint2_technical.html">
+                    CSS Layout
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item">
+                    Report an issue
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-primary">
+                    <strong>Sign up</strong>
+                  </a>
+                  <a class="button is-light">
+                    Log in
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-      <nav class="navbar">
-        <li id="nav">
-          <ul class="nav-item"><a href="#">Test 1</a></ul>
-          <ul class="nav-item"><a href="#">Test 1</a></ul>
-          <ul class="nav-item"><a href="#">Test 1</a></ul>
-        </li>
-      </nav>
 
-      <hr class="nav-div"/>
+      <section class="hero is-dark is-bold">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                Charlie's Blog
+              </h1>
+              <h2 class="subtitle">
+                My learning from the EDA foundations.
+              </h2>
+            </div>
+          </div>
+        </section>
 
-      <h3 class="sub-heading">This is my learning blog for Dev Academy.</h3>
+        
+<div class="section container">
+      <h4 class="subtitle is-4">Welcome to my Blog</h4>
+      <br/>
       <div id="content">
-          <div class="row">
-            <div class="col-3">
+          <div class="columns">
+            <div class="column">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et nulla id velit placerat lobortis. Vivamus ut purus et massa vehicula imperdiet. Proin dictum, risus ut placerat suscipit, nisi leo blandit mauris, ut gravida felis mi non erat. Nunc consectetur cursus sagittis. Sed dui ligula, egestas sit amet suscipit ut, viverra nec ante. Curabitur pellentesque a ligula id feugiat. Donec at bibendum enim. Nunc ultrices dapibus mauris, non ullamcorper neque scelerisque eget. Ut nec blandit ipsum. Mauris ut risus ipsum. Curabitur sed congue ante. Sed eget leo turpis.
               </p>
             </div>
-            <div class="col-3">
+            <div class="column">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et nulla id velit placerat lobortis. Vivamus ut purus et massa vehicula imperdiet. Proin dictum, risus ut placerat suscipit, nisi leo blandit mauris, ut gravida felis mi non erat. Nunc consectetur cursus sagittis. Sed dui ligula, egestas sit amet suscipit ut, viverra nec ante. Curabitur pellentesque a ligula id feugiat. Donec at bibendum enim. Nunc ultrices dapibus mauris, non ullamcorper neque scelerisque eget. Ut nec blandit ipsum. Mauris ut risus ipsum. Curabitur sed congue ante. Sed eget leo turpis.
                 </p>
               </div>
-              <div class="col-3">
+              <div class="column">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et nulla id velit placerat lobortis. Vivamus ut purus et massa vehicula imperdiet. Proin dictum, risus ut placerat suscipit, nisi leo blandit mauris, ut gravida felis mi non erat. Nunc consectetur cursus sagittis. Sed dui ligula, egestas sit amet suscipit ut, viverra nec ante. Curabitur pellentesque a ligula id feugiat. Donec at bibendum enim. Nunc ultrices dapibus mauris, non ullamcorper neque scelerisque eget. Ut nec blandit ipsum. Mauris ut risus ipsum. Curabitur sed congue ante. Sed eget leo turpis.
                   </p>
                 </div>
           </div>
-    </div>
+          </div>
+        </div>
   </body>
 </html>

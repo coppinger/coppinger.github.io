@@ -89,3 +89,11 @@ ul
 {
     position:fixed;
 }
+
+.hero-bg
+{
+    background-image: url("../blog/header-bg.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
